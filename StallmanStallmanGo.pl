@@ -29,24 +29,11 @@ get '/*' => sub {
 };
 
 get '/' => sub {
-    <<"MAIN_PAGE";
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.xml" title="StallmanStallmanGo" />
-    <meta charset="UTF-8" />
-    <title>StallmanStallmanGo - Freedums and bangs</title>
-  </head>
-  <body>
-    <h1>StallmanStallmanGo</h1>
-    <form name="search" method="GET" action="/search">
-      <input type="text" autocomplete="off" name="q" autofocus tabindex="1" />
-      <button title="GNU/Go!">Search</button>
-    </form>
-    <h1><a href="https://gist.github.com/Difegue/078df8f03135465e4238">Source code and documentation</h1></a>
-  </body>
-</html>
-MAIN_PAGE
+    send_file './index.html';
+};
+
+get '/style.css' => sub {
+  send_file './style.css';
 };
 
 dance;
