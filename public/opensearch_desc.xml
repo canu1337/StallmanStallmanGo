@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" 
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>StallmanStallmanGo</ShortName>
+  <Description>StallmanStallmanGo</Description>
+  <Url type="text/html" method="get" template="http://search.faucheisti.eu/search?q={searchTerms}"/>
+  <Image width="16" height="16">https://rms.sexy/favicon.ico</Image>
+  <Developer>StallmanStallmanGo</Developer>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>/search</moz:SearchForm>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://mycroft.mozdev.org/updateos.php/id0/1409266633.xml"/>
+  <moz:UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/1409266633.xml</moz:UpdateUrl>
+</OpenSearchDescription>
