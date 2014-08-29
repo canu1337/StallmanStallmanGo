@@ -36,6 +36,9 @@ get '/style.css' => sub {
   send_file './style.css';
 };
 
+get '/logo.png' => sub {
+  send_file './logo.png';
+};
 dance;
 
 __END__
