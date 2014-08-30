@@ -1,15 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+font-family: 'Josefin Sans', sans-serif;
+
 #search {
   width: 100%;
 }
 
 #input {
   line-height: 2;
-  width: 25%;
 }
 
 .centered{
   max-height: 50%;
+  
 }
+
+.test{
+    -moz-appearance: none;
+    font-size: 1.1em;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    background: none repeat scroll 0% 0% transparent;
+    outline: medium none;
+    border: medium none;
+    padding: 0px;
+    height: 2.54545em;
+    z-index: 1;
+    position: relative;
+    top: -1px;
+	border-radius: 2px 2px 2px 2px;
+    display: block;
+    position: relative;
+    height: 2.8em;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 205, 200);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+
+a:hover {
+    background-color: #d6abb1;
+} 
 
 body {
   display: flex;
@@ -29,6 +61,8 @@ html{
   background: -ms-linear-gradient(top, #1e5799 0%,#160f1c 100%); /* IE10+ */
   background: linear-gradient(to bottom, #1e5799 0%,#160f1c 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#160f1c',GradientType=0 ); /* IE6-9 */
+  
+  font-family:Josefin Sans;
 }
 
 html {
@@ -41,9 +75,11 @@ a{
 
 h1 {
   color: #BBBD82;
+  font-size:40px;
 }
 .blue{
   color: #0798AB;
+  font-size:60px;
 }
 
 .button {
@@ -71,7 +107,6 @@ h1 {
   border:1px solid #3866a3;
   display:inline-block;
   color:#14396a;
-  font-family:Arial;
   font-size:15px;
   font-weight:bold;
   font-style:normal;
