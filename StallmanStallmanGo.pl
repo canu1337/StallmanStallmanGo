@@ -9,7 +9,7 @@ set daemon => true;
 get '/search' => sub {
     given (param("q")) {
         when (/^(?:!(?:ducky)?\s+|\\)(.*)/) { redirect 'http://www.google.com/search?btnI=1&q=' . uri_escape_utf8 $1 }
-        when (/^(?:!(?:tpb)?\s+|\\)(.*)/) { redirect 'http://tpb.faucheisti.eu/s/?q='              . uri_escape_utf8 $1 }
+        when (/^(?:!(?:tpb)?\s+|\\)(.*)/) { redirect 'http://tpb.faucheisti.eu/search.php?q='              . uri_escape_utf8 $1 }
 	when (/^(!.*)/)                     { redirect 'https://duckduckgo.com/?q='              . uri_escape_utf8 $_ }
         default                             { redirect 'https://startpage.com/do/search?query='        . uri_escape_utf8 $_ }
     }
