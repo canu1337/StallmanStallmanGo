@@ -3,7 +3,7 @@
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
   <ShortName>StallmanStallmanGo</ShortName>
   <Description>StallmanStallmanGo</Description>
-  <Url type="text/html" method="get" template="http://search.faucheisti.eu/search?q={searchTerms}"/>
+  <Url type="text/html" method="get" template="https://search.faucheisti.eu/search?q={searchTerms}"/>
   <Image width="16" height="16">https://rms.sexy/favicon.ico</Image>
   <Developer>StallmanStallmanGo</Developer>
   <InputEncoding>UTF-8</InputEncoding>
