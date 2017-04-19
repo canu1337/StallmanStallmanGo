@@ -4,7 +4,7 @@ use warnings;
 use Dancer;
 use URI::Escape qw(uri_escape_utf8);
 set server => 'localhost';
-set daemon => true;
+set daemon => false;
 # This is all the search engine does
 get '/search' => sub {
     given (param("q")) {
